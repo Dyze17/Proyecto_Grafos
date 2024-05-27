@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="380.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.caminoController">
+   <ImageView fitHeight="150.0" fitWidth="211.0" layoutX="96.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../Img/camino.jpg"/>
+   </ImageView>
+   <Label layoutX="115.0" layoutY="28.0" text="Camino mas corto">
+      <font>
+         <Font size="16.0"/>
+      </font>
+   </Label>
+   <Label layoutX="35.0" layoutY="221.0" prefHeight="128.0" prefWidth="298.0"
+          text="El camino más corto En la Teoría de Grafos, uno de los problemas más conocido es el del camino más corto. El problema consiste en encontrar un camino entre dos vértices de tal manera que la suma de los pesos de las aristas que lo constituyen es mínima."
+          wrapText="true"/>
+   <Button layoutX="145.0" layoutY="349.0" mnemonicParsing="false" text="Encontrar" fx:id="botonEncontrar"/>
+</AnchorPane>
